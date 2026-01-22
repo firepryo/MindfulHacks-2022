@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/story_background"
+    tools:context=".gamepart1">
+
+    <ImageButton
+        android:id="@+id/undo"
+        android:layout_width="84dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="645dp"
+        android:layout_marginBottom="329dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/undo" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/character"
+        android:layout_width="123dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="336dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/character"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/anthill"
+        android:layout_width="135dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="264dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/anthill" />
+
+    <ImageButton
+        android:id="@+id/tightrope"
+        android:layout_width="133dp"
+        android:layout_height="183dp"
+        android:layout_marginStart="524dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tightrope_removebg_preview" />
+
+    <ImageButton
+        android:id="@+id/waterpool"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="536dp"
+        android:layout_marginTop="276dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/puddle" />
+
+    <ImageButton
+        android:id="@+id/ending"
+        android:layout_width="228dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="14dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blank" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
